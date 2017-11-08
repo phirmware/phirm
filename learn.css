@@ -1,0 +1,50 @@
+body {
+    height: 1000px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.object {
+    font-family: red serif;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background:blue;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.object1 {
+    height: 100%;
+    width: 100%;
+    background: url('1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 3s;
+}
+
+.object2 {
+    height: 100%;
+    width: 100%;
+    background: url('a.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.white{
+    position: sticky;
+    height: 30%;
+}
+
+.object3 {
+    height: 100%;
+    width: 100%;
+    background: url('w.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>Tonee C</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tonee c.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+  <div id="text">
+      
+  </div>
+  <div id="resize">
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-center">
+      <img id="myImg" class="w3-image" src="b.jpg" alt="TONEE C <br/>..read on">
+      <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">TONEE C</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">TONEE C</h5>
+        <h3 class="w3-hide-medium w3-hide-small">LYRICAL GENTLEMAN</h3>
+      </div>
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+    <div id="bout">
+      Chibuzor Anthony Obi, also known as 'Tonee C' is a rap artist currently studying<br/>
+      Mechanical Engineering at the univerity of Portharcourt.He is known for his versatility in the rap,hip hop and afro-trap genre of music<br/>
+      and also for his lyrical prowess.Also known as 'Lyrical gentleman' which was coined from a song on his mix-tape titled 'Lyrical Gentleman'<br/>
+      Tonee C is one of portharcourt's finest upcoming rappers.        
+
+
+    </div>
+  </div>
+  <div class="w3-container">
+  <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-4">
+        <header class="w3-container w3-teal"> 
+          <span onclick="document.getElementById('id01').style.display='none'" 
+          class="w3-button w3-display-topright">&times;</span>
+          <h2>Lyrical Gentleman</h2><br/>
+          <audio controls>
+              <source src="tonee.ogg" type="audio/ogg">
+            <source src="tonee.mp3" type="audio/mpeg"></audio>
+        </header>
+        
+        <footer class="w3-container w3-teal">
+          <p>Tonee C</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+      <!-- Navbar (placed at the bottom of the header image) -->
+      <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px"> 
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">SONGS</button>
+      </div>
+    </header>
+
+    <!-- Navbar on small screens -->
+    <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+      <div class="w3-bar w3-light-grey">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+  Powered by <a href="mailto:chibuzor.ojukwu@gmail.com">Phirmware</a>
+
+  <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+          modal.style.display = "none";
+      }
+      alert("click picture for Tonee info");
+      </script>
+      
+</body>
+
+</html>

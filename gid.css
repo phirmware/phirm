@@ -1,0 +1,162 @@
+#header{
+    background: url("5.jpg") repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    height: 100px;
+    width: 92%;
+    border: solid 2px;
+    border-radius: 8px;
+    text-align:right;
+    padding: 50px;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+ 
+#header>a{
+    color: black;
+    text-align: right;
+    font-size: 40px;
+    font-family: sans-serif;
+  
+
+}
+#header>a:hover{
+    font-size: 50px;
+    background: none;
+    font-family: myFirstFont;
+    color: rgb(63, 6, 6);
+    text-shadow: -3px 3px 6px rgb(5, 0, 4);
+
+}
+#nav{
+    background:black;
+    background-attachment: fixed;
+    height: 40px;
+    width: 99.8%; 
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-family: red serif;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    color: whitesmoke;
+    box-shadow: 0px 3px 2px darkslategray;
+    
+}
+
+#content1{
+    height: 400px;
+    background: linear-gradient(lightblue,lightcyan);
+    background-attachment: fixed;
+    border: solid 2px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 40px;
+}
+#content2{
+    height: 400px;
+    background:linear-gradient(blue,lightskyblue,lightcyan);
+    background-size: cover;
+    background-attachment: fixed;
+    border:solid black 2px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 40px;
+    z-index:  8;
+    color: wheat; 
+}
+#content3{
+    height: 400px;
+    background: linear-gradient(red,blue);
+    background-attachment: fixed;
+    border: solid black 2px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 40px;
+}
+#footer{
+    background: linear-gradient(black,rgb(1, 1, 31));
+    height: 50px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: lightblue
+}
+a{
+    display: block;
+    float: left;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: lightcyan;
+    margin-bottom: 0;
+    height: 100%;
+    transition: 1s;
+
+}
+a:hover{
+    background-color: darkslategray;
+    color: black;
+}
+#content1>p{
+    font-family: sans-serif;
+    font-size: 20px;
+    float: left;
+    top: 0;
+    margin: 0;
+    width: 50%;
+}
+#content1>img{
+    width: 45%;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+#content1>img:hover{
+    box-shadow: 0px 0px 20px black;
+    z-index: 5;
+}
+#content2>img{
+    width: 45%;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+#content2>img:hover{
+    box-shadow: 0px 0px 20px black;
+}
+#content3>img{
+    width: 45%;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+#content3>p{
+    font-family: sans-serif;
+    font-size: 20px;
+    float: left;
+    top: 0;
+    margin: 0;
+    width: 50%;
+}
